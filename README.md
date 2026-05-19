@@ -2,7 +2,6 @@
 
 Repositori ini berisi kode dari project mata kuliah **Pengolahan Citra dan Visi Komputer** tentang klasifikasi genre film dari poster.
 
-## Judul
 
 **Beyond the Image: Enhancing Movie Genre Classification with Title-Aware Cross-Attention on Poster Features**
 
@@ -15,22 +14,17 @@ Accurate movie genre classification underpins key functionalities in modern stre
 ## Tim
 
 ### Muhammad Nafal Zakin Rustanto
-Dept. of Electrical and Information Engineering  
-Universitas Gadjah Mada  
-Yogyakarta, Indonesia  
+24/535255/TK/59364
 muhammadnafalzakinrustanto@mail.ugm.ac.id
 
 ### Nathanael Satya Saputra
-Dept. of Electrical and Information Engineering  
-Universitas Gadjah Mada  
-Yogyakarta, Indonesia  
+24/534424/TK/59236
 nathanaelsatyasaputra@mail.ugm.ac.id
 
 ### Johannes De Deo Dimas Aryobimo
-Dept. of Electrical and Information Engineering  
-Universitas Gadjah Mada  
-Yogyakarta, Indonesia  
+24/540351/TK/59948 
 johannesdedeodimasaryobimo@mail.ugm.ac.id
+
 
 ## Isi Repository
 
