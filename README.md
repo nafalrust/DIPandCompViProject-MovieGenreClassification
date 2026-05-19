@@ -1,5 +1,6 @@
 Repositori ini berisi kode dari project mata kuliah **Pengolahan Citra dan Visi Komputer** tentang klasifikasi genre film dari poster.
-#**Beyond the Image: Enhancing Movie Genre Classification with Title-Aware Cross-Attention on Poster Features**
+
+# Beyond the Image: Enhancing Movie Genre Classification with Title-Aware Cross-Attention on Poster Features
 
 ## Abstract
 
