@@ -1,0 +1,149 @@
+\relax 
+\citation{b8,tan2019}
+\citation{tan2019}
+\providecommand \oddpage@label [2]{}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}\protected@file@percent }
+\newlabel{sec:intro}{{I}{1}{}{}{}}
+\citation{b5,b6}
+\citation{devlin2019}
+\citation{b8}
+\citation{b6}
+\citation{b8}
+\citation{b8}
+\citation{b7}
+\citation{b7,b8}
+\citation{b7,b8}
+\citation{b7}
+\citation{b8}
+\citation{b7}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Literature Review and Theoretical Background}{2}{}\protected@file@percent }
+\newlabel{sec:related}{{II}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-A}}Movie Genre Classification}{2}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-B}}Multilabel Classification}{2}{}\protected@file@percent }
+\citation{tan2019}
+\citation{vaswani2017}
+\citation{vaswani2017}
+\citation{vaswani2017}
+\citation{devlin2019}
+\citation{shanmugam2021}
+\citation{shanmugam2021}
+\citation{shanmugam2021}
+\citation{shanmugam2021}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-C}}EfficientNet and Compound Scaling}{3}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces \textbf  {EfficientNet-B0 baseline network}. Each row describes stage $i$ with $\hat  {L}_i$ layers, input resolution $\langle \hat  {H}_i, \hat  {W}_i \rangle $, and output channels $\hat  {C}_i$.}}{3}{}\protected@file@percent }
+\newlabel{tab:efficientnet-b0}{{I}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-D}}Attention Mechanism}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-E}}BERT for Text Encoding}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {II-F}}Test-Time Augmentation}{3}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {III}Dataset and Exploratory Data Analysis}{4}{}\protected@file@percent }
+\newlabel{sec:dataset}{{III}{4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-A}}Dataset Description}{4}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-B}}Genre Distribution}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Genre distribution in the training set. Red bars indicate minority genres with fewer than 30 positive samples. The dashed line marks the mean count of 69.}}{4}{}\protected@file@percent }
+\newlabel{fig:genre_dist}{{1}{4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-C}}Label Co-occurrence}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Normalized genre co-occurrence heatmap over the training set. Cell $(i,j)$ gives the fraction of genre-$i$ films that also belong to genre $j$. Abbreviations: Act=action, Adv=adventure, Ani=animation, Com=comedy, Cri=crime, Dra=drama, Fam=family, Fan=fantasy, Hor=horror, Mus=musical, Mys=mystery, Rom=romance, Sci=sci-fi, Thr=thriller.}}{4}{}\protected@file@percent }
+\newlabel{fig:cooc}{{2}{4}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-D}}Distribution of Genre Count per Film}{4}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Distribution of genre count per film for the training set (left) and test set (right). The dashed line marks the mean. Both splits peak at 4 genres per film, confirming consistent label-count distribution.}}{5}{}\protected@file@percent }
+\newlabel{fig:genre_count}{{3}{5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-E}}Visual Feature Analysis: Brightness by Genre}{5}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Distribution of mean poster brightness per genre. Musicals display the highest median brightness, while horror, crime, and mystery genres are consistently darker, reflecting their genre-specific visual conventions.}}{5}{}\protected@file@percent }
+\newlabel{fig:brightness}{{4}{5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {III-F}}Class Imbalance Analysis and Mitigation}{5}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces Positive Sample Count per Genre (Training Set)}}{5}{}\protected@file@percent }
+\newlabel{tab:class_imbalance}{{II}{5}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces Image Augmentation Pipeline (Training Only)}}{5}{}\protected@file@percent }
+\newlabel{tab:augmentation}{{III}{5}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Methodology}{5}{}\protected@file@percent }
+\newlabel{sec:method}{{IV}{5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-A}}Data Preprocessing}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-A}1}Image Preprocessing}{5}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-A}2}Text Preprocessing (Experiment I Only)}{5}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces Model Components, Experiment I (Multimodal)}}{6}{}\protected@file@percent }
+\newlabel{tab:arch_exp1}{{IV}{6}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces Model Components, Experiment II (Image-Only)}}{6}{}\protected@file@percent }
+\newlabel{tab:arch_exp2}{{V}{6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-B}}Model Architecture}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-B}1}Experiment I: Multimodal EfficientNet-B3 + BERT + Cross-Attention}{6}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-B}2}Experiment II: Image-Only EfficientNet-B3}{6}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Architecture of Experiment I: EfficientNet-B3 + BERT + Cross-Attention Fusion.}}{6}{}\protected@file@percent }
+\newlabel{fig:arch_multi}{{5}{6}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Architecture of Experiment II: EfficientNet-B3 Image-Only.}}{7}{}\protected@file@percent }
+\newlabel{fig:arch_img}{{6}{7}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-C}}Experiment Setup}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-C}1}Data Strategy}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {IV-C}1a}Train/Validation/Test Split.}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {IV-C}1b}Targeted Oversampling.}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {IV-C}1c}Positive Weight.}{7}{}\protected@file@percent }
+\newlabel{eq:posweight}{{2}{7}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-C}2}Loss Function}{7}{}\protected@file@percent }
+\newlabel{eq:bce}{{3}{7}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {VI}{\ignorespaces Complete Hyperparameter Configuration}}{7}{}\protected@file@percent }
+\newlabel{tab:hyperparam}{{VI}{7}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-C}3}Two-Phase Training}{7}{}\protected@file@percent }
+\newlabel{eq:cosine}{{4}{7}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-C}4}Threshold Tuning Per-Genre}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {IV-C}5}Test-Time Augmentation}{7}{}\protected@file@percent }
+\newlabel{eq:tta}{{5}{7}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {IV-D}}Evaluation Metrics}{7}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {IV-D}0a}Macro F1-Score (primary).}{7}{}\protected@file@percent }
+\newlabel{eq:f1macro}{{6}{7}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {IV-D}0b}Micro F1-Score (secondary).}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {IV-D}0c}Hamming Loss.}{8}{}\protected@file@percent }
+\newlabel{eq:hamming}{{7}{8}{}{}{}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\mbox  {IV-D}0d}AUC-ROC.}{8}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {V}Results and Discussion}{8}{}\protected@file@percent }
+\newlabel{sec:results}{{V}{8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-A}}Quantitative Results}{8}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {VII}{\ignorespaces Overall Performance on Test Set}}{8}{}\protected@file@percent }
+\newlabel{tab:results_main}{{VII}{8}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Per-genre confusion matrices, Experiment~I (Multimodal). Each $2{\times }2$ matrix shows TN/FP/FN/TP counts on the test set at the per-genre optimal threshold.}}{8}{}\protected@file@percent }
+\newlabel{fig:cm_exp1}{{7}{8}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Per-genre confusion matrices, Experiment~II (Image-Only).}}{8}{}\protected@file@percent }
+\newlabel{fig:cm_exp2}{{8}{8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-B}}Per-Genre Analysis}{8}{}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {VIII}{\ignorespaces Per-Genre F1 Comparison Before and After Threshold Optimization for Experiment I (Multimodal) and Experiment II (Image-Only)}}{9}{}\protected@file@percent }
+\newlabel{tab:threshold_comparison}{{VIII}{9}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}1}Genres with Zero or Near-Zero Test Positives}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}2}Title-Sensitive Genres}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}3}Visually Dominant Genres}{9}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-B}4}Genres with Low Overall Performance}{10}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-C}}Training Dynamics}{10}{}\protected@file@percent }
+\newlabel{sec:training_dynamics}{{\mbox  {V-C}}{10}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-C}1}Phase 1, Frozen Backbone}{10}{}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Loss curve, Phase~1, Experiment~I (Multimodal).}}{10}{}\protected@file@percent }
+\newlabel{fig:loss_exp1_p1}{{9}{10}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Loss curve, Phase~1, Experiment~II (Image-Only).}}{10}{}\protected@file@percent }
+\newlabel{fig:loss_exp2_p1}{{10}{10}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\mbox  {V-C}2}Phase 2, Full Fine-Tuning}{10}{}\protected@file@percent }
+\citation{gradcam}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Loss curve, Phase~2, Experiment~I (Multimodal).}}{11}{}\protected@file@percent }
+\newlabel{fig:loss_exp1_p2}{{11}{11}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces Loss curve, Phase~2, Experiment~II (Image-Only).}}{11}{}\protected@file@percent }
+\newlabel{fig:loss_exp2_p2}{{12}{11}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-D}}Visual Explanation: GradCAM Analysis}{11}{}\protected@file@percent }
+\newlabel{sec:gradcam}{{\mbox  {V-D}}{11}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces GradCAM visualizations for \textit  {Guardians of the Galaxy} (Experiment~I, Multimodal). From left: original poster; activation map for \textit  {action} (prob $= 0.99$), \textit  {adventure} (prob $= 0.86$), and \textit  {sci-fi} (prob $= 0.98$). Warmer colors indicate regions of higher gradient activation.}}{11}{}\protected@file@percent }
+\newlabel{fig:gradcam_exp1}{{13}{11}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-E}}Threshold Optimization Analysis}{11}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {V-F}}Discussion}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Conclusion and Future Works}{12}{}\protected@file@percent }
+\newlabel{sec:conclusion}{{VI}{12}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-A}}Conclusion}{12}{}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {\mbox  {VI-B}}Future Works}{12}{}\protected@file@percent }
+\bibcite{b1}{1}
+\bibcite{b2}{2}
+\bibcite{b3}{3}
+\bibcite{b4}{4}
+\bibcite{b5}{5}
+\bibcite{b6}{6}
+\bibcite{b7}{7}
+\bibcite{b8}{8}
+\bibcite{vaswani2017}{9}
+\bibcite{shanmugam2021}{10}
+\bibcite{devlin2019}{11}
+\bibcite{tan2019}{12}
+\bibcite{gradcam}{13}
+\@writefile{toc}{\contentsline {section}{References}{13}{}\protected@file@percent }
+\gdef \@abspage@last{13}
